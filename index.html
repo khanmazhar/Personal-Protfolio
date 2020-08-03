@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mazhar khan">
+    <meta name="description" content="This is my personal protfolio. I am a front end web developer.">
+    <meta name="keywords" content="web designer, web developer, protfolio, personal protfolio, front end developer">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e054cc2584.js" crossorigin="anonymous"></script>
+    <title>Protfolio | Mazhar Khan</title>
+</head>
+<body>
+
+    <!--Header navbar Starts-->
+    <header class="main-header">
+        <div class="wrapper" data-aos="slide-down">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#connections">Connections</a>
+        </div>
+    </header>
+    <!--Header navbar Ends-->
+
+    <img src="./images/circle1.svg" alt=""><!--Background Circle-->
+
+    <a href="certifications.html" class="certification" data-aos="slide-right">View my certifications</a> <!--Link to Certification-->
+
+    <main>
+
+        <!--Introduction Section Starts-->
+        <div class="content-wrap" id="home">
+            <p>Hey there!</p>
+            <h1>I am Mazhar</h1>
+            <p>A Front-End Web Developer</p>
+        </div>
+        <!--Introduction Section Ends-->
+
+        <!--About Section Starts-->
+        <section id="about" data-aos="fade">
+            <div class="pic">
+                <img src="./images/picpersonal.png" alt="">
+            </div>
+            <div id="content">
+                <h1>Who am I?</h1>
+                <p>I am a Pakistan based self-taught Front End Web Developer. I just graduated college and will soon be joining a university. I have worked on a ton of real world projects that allowed me to expand my understanding of Front End Development. I love how one can put their thoughts into something real with Front End Development, and this is something I love the most about it. I have command over HTML and CSS.</p>
+            </div>
+        </section>
+        <!--About Section Ends-->
+        
+        <!--Projects Sections Ends-->
+        <section id="projects">
+            <h1>Projects I've worked on</h1>
+
+            <div class="grid">
+                <img src="./images/project1.png" alt="">
+                <div>
+                    <h2>Workout Lounge Project</h2>
+                    <p>Workout Lounge is a Landing Page for a GYM. It is built using HTML and CSS. To view this project, click on the button below.</p>
+                    <a href="https://khanmazhar.github.io/Simple-Landin-Page-/" class="btn" target="_blank">Click Here!</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <img src="./images/project2.png" alt="">
+                <div>
+                    <h2>Product Landing Page</h2>
+                    <p>This is a simple product landing page. This was part of the freeCodeCamp challenges. To see this project, click the link below.</p>
+                    <a href="https://codepen.io/khan-mazhar/pen/dyGEddO" class="btn" target="_blank">Click Here!</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <img src="./images/project3.png" alt="">
+                <div>
+                    <h2>Technical Documentation Page</h2>
+                    <p>View a detailed documentation about JavaScript in this project. It was part of the challenges on freeCodeCamp. To view this project, click the link below.</p>
+                    <a href="https://codepen.io/khan-mazhar/pen/YzwbMYo" class="btn" target="_blank">Click Here!</a>
+                </div>
+            </div>
+        </section>
+        <!--Projects Sections Ends-->
+
+        <!--Social Media Section Starts-->
+        <section id="connections" >
+            <div class="social-media">
+                <h1>Wanna Connect?</h1>
+                <p>These are my Socials!</p>
+                <div class="flex-social">
+                    <a href="https://web.facebook.com/profile.php?id=100053160052914" target="_blank"><i class="fab fa-3x fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mazharrkhann/" target="_blank"><i class="fab fa-3x fa-instagram"></i></a>
+                    <a href="https://twitter.com/MazharK75536477" target="_blank"><i class="fab fa-3x fa-twitter"></i></a>
+                    <a href="https://github.com/khanmazhar" target="_blank"><i class="fab fa-3x fa-github"></i></a>
+                    <a href="https://codepen.io/khan-mazhar" target="_blank"><i class="fab fa-3x fa-codepen"></i></a>
+                    <a href="https://www.linkedin.com/in/mazhar-khan-8ba2571b1/" target="_blank"><i class="fab fa-3x fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Social Media Section Ends-->
+    </main>
+
+   <!--Animation Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1400
+      });
+    </script>
+</body>
+</html>
